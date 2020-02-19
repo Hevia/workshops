@@ -29,6 +29,7 @@ app.get('/', function (req, res) {
 // The search request!
 // req is the request we are making
 // res is the response we get back from the server
+// This is sending a get request to the VideoIndexer API
 app.get('/search', function (req, res) {
 
   // In our "then()" method we are passing it what is known as an anonymous function
@@ -59,6 +60,7 @@ app.get('/search', function (req, res) {
 // This is what is known as a "Promise". This is a common pattern in programming
 // You are basically making a promise that the website will eventually get data back
 // Read more about it here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then
+// This performs the same function as the get request above except with thumbnails
 app.get('/thumbnail', function (req, res) {
   getAccessToken().then(accessToken => {
     const videoId = req.query.videoId;
