@@ -1,3 +1,5 @@
+// This is the Vanilla JavaScript way of writing functions that interact with the DOM
+// The DOM is how we interact with webpages on the frontend. We "hook" into a tags various properties to control it
 $(function () {
   const searchButton = $("#search_button");
 
