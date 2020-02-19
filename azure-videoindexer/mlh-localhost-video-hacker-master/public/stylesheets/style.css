@@ -1,0 +1,140 @@
+@import url("/stylesheets/typography.css");
+
+body {
+  font: 36px "Futura Thin", sans-serif;
+  background-color: #FFF;
+  color: #333;
+}
+
+header {
+  height: 26vh;
+  width: 98vw;
+  text-align: center;
+}
+
+header img {
+  height: 8vh;
+  width: auto;
+  margin: 2vh 2vw;
+}
+
+h2 {
+  margin: 2vh 2vw;
+  padding: 0;
+  font-size: 9vh;
+}
+
+h3 {
+  margin: 2vh 0;
+}
+
+#searchform {
+  margin: 2vh auto;
+}
+
+#form {
+  margin: 2vh auto;
+}
+
+form {
+  width: 90vw;
+  height: 60vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a, a:hover a:visited {
+  color: #0063B1;
+}
+
+input[type=text] {
+  font-size: 36px;
+  width: 20vw;
+}
+
+input[type=button] {
+  font-family: "Hack";
+  border: 1px solid #ccc;
+  background-color: #162f51;
+  color: white;
+  font-size: 24px;
+  width: 200px;
+  height: 6vh;
+  margin: 2vh 0;
+  outline: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+
+#search_box {
+  width: 20vw;
+  height: 6vh;
+  margin: 2vh 0;
+  font-size: 24px;
+  font-family: "Hack";
+}
+
+input:disabled {
+  opacity: 0.3;
+}
+
+.stepLabel {
+  font-size: 24pt;
+  font-weight: lighter;
+  opacity: .3;
+  margin-top: 20px
+}
+
+#searchResults {
+  margin: 4vh auto;
+  font-size: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  width: 42vw;
+  height: auto;
+  margin: 1vh 1vw;
+}
+
+.title {
+  font-size: 32px;
+  height: 70px;
+  font-family: 'Hack';
+  margin: 2vh 0;
+}
+
+.video {
+  padding: 2vh 2vw;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  padding: 1vh 1vw;
+  text-align: left;
+}
+
+.cell {
+  margin: 0 1vw;
+}
+
+.thumbnail {
+  border: solid 1px #333;
+  width: 30vw;
+  height: auto;
+}
+
+.match {
+  color:#751b00;
+  font-weight: bold;
+}
