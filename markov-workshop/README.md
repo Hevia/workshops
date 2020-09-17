@@ -6,9 +6,10 @@ This repo c
 * Python3+
 * Git
 
-
-
-## Examples of Markov Chains
+## Exercises
+* A good beginner Python exercise is to modify the markov_chain code to work with text files, checkout the .readLines() method for opening files
+* Try to implement the Markov Chain from scratch!
+* Using the exisiting Python code, try to implement a "character" level Markov Chain, markov_chain.py is a "word" level Markov chain
 
 
 ## References

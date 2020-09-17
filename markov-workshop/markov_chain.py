@@ -56,10 +56,10 @@ def generateText(markov_chain: dict, beginnings: List[str], iterations: int, gen
             seed = random.choice(possibilities)
             result += " " + seed
 
-        print("========================================")
+        print("--------------------------")
         print(result)
     
-    print("========================================")
+    print("--------------------------")
 
 # Example - Slide sentences
 # data = exampleSentences()
@@ -67,11 +67,12 @@ def generateText(markov_chain: dict, beginnings: List[str], iterations: int, gen
 # generateText(markov_chain, beginnings, 3, 7)
 
 # Example - Academic Subjects + Business Categories
-data_academia = loadJSON("data/academic_subjects.json")['subjects']
-data_businesses = loadJSON("data/industries.json")["industries"]
-data = data_academia + data_businesses
-markov_chain, beginnings = createMarkovChain(data)
-generateText(markov_chain, beginnings, 50, 15)
+# data_academia = loadJSON("data/academic_subjects.json")['subjects']
+# data_businesses = loadJSON("data/industries.json")["industries"]
+# data = data_academia + data_businesses
+# markov_chain, beginnings = createMarkovChain(data)
+# print("Your Fall 2020 Courses are: ")
+# generateText(markov_chain, beginnings, 5, 15)
 
 # Example - Dinosaur Wikipedia summaries
 # data = loadJSON("data/processed_dinodata.json")
