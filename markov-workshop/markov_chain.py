@@ -1,10 +1,15 @@
 import json
 import random
 from typing import List
-from data_collection import loadJSON
+
+def loadJSON(data_path: str):
+    with open(data_path) as json_data:
+        data = json.load(json_data)
+        return data
 
 def exampleSentences():
     return ["I love to eat pancakes", "I like to eat pizza", "I like to eat porridge"]
+
 
 def createMarkovChain(data_array: List[List[str]]) -> (dict, List[str]):
     """
@@ -39,7 +44,7 @@ def createMarkovChain(data_array: List[List[str]]) -> (dict, List[str]):
     #print(markov_chain)
     #print(beginnings)
 
-    return markov_chain, beginnings       
+    return markov_chain, beginnings      
 
 
 def generateText(markov_chain: dict, beginnings: List[str], iterations: int, generation_length: int) -> None:
@@ -50,6 +55,7 @@ def generateText(markov_chain: dict, beginnings: List[str], iterations: int, gen
         for _ in range(generation_length):
             possibilities = markov_chain[seed]
 
+            # end of the sentence check
             if possibilities == [] or possibilities == None:
                 break
             
