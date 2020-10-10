@@ -2,7 +2,8 @@
 websites = {
     "site1": "The cow goes moo",
     "site2": "All hail the lord of cow for the moo bringeth",
-    "site3": "Ducks 101 now offered at University of Central Florida"
+    "site3": "Ducks 101 now offered at University of Central Florida",
+    "site4": "KnightHacks is awesome"
 }
 
 

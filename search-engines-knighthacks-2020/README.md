@@ -9,3 +9,9 @@ This folder contains the slides + quick example code
 * https://www.stavros.io/posts/bloom-filter-search-engine/
 * https://blog.google/products/search/search-language-understanding-bert/
 * https://blog.google/
+
+# Exercises
+* Expand the example code to add spellchecking
+* Add support for synonyms 
+* Can you devise some page ranking algorithim from scratch?
+* Add support for punctiation 
