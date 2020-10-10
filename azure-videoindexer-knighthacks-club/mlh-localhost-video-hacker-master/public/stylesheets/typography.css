@@ -1,0 +1,58 @@
+/* Typography */
+
+/** Hack **/
+/*** Normal ***/
+@font-face {
+  font-family: 'Hack';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/Hack-Regular.ttf") format("ttf"), url("/fonts/Hack-Regular.woff") format("woff");
+}
+
+/*** Italic ***/
+@font-face {
+  font-family: 'Hack';
+  font-style: italic;
+  font-weight: normal;
+  src: url("/fonts/Hack-Italic.ttf") format("ttf"), url("/fonts/Hack-Italic.woff") format("woff");
+}
+
+/*** Bold ***/
+@font-face {
+  font-family: 'Hack';
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/Hack-Bold.ttf") format("ttf"), url("/fonts/Hack-Bold.woff") format("woff");
+}
+
+/*** BoldItalic ***/
+@font-face {
+  font-family: 'Hack';
+  font-style: italic;
+  font-weight: bold;
+  src: url("/fonts/Hack-BoldItalic.ttf") format("ttf"), url("/fonts/Hack-BoldItalic.woff") format("woff");
+}
+
+/** Futura Thin **/
+/*** Normal ***/
+@font-face {
+  font-family: 'Futura Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/FUTURTHN.ttf") format("ttf"), url("/fonts/FUTURTHN.woff") format("woff");
+}
+
+body {
+  font: 16px "Futura Thin", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Hack", sans-serif;
+  font-weight: Bold;
+  text-transform: uppercase;
+}
