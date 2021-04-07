@@ -16,6 +16,11 @@ fn main() {
     }
     //println!("a is {}", a); // This will error out
 
+    // Ownership with heap
+    let v1 = String::from("hello");
+    let v2 = v1;
+    // do something with v1
+
     // ---------------------------------------------------------------------------------------------
 
     // Borrowing
