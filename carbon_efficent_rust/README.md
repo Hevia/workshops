@@ -1,0 +1,2 @@
+## commands 
+``` sc stop dps; cd C:\Windows\System32\sru\; mv .\SRUDB.dat srudb.bak; sc start dp; cd D:\code\projects\workshops\carbon_efficent_rust\neural_networks\python_neural_net>; python train.py; powercfg.exe /srumutil ```
