@@ -8,5 +8,7 @@ app = FastAPI()
 @app.get("/")
 def main_route(name: Optional[str] = None):
     time.sleep(2)
-    for i in rang
+    for i in range(100):
+        if i == 50:
+            print(50)
     return name
